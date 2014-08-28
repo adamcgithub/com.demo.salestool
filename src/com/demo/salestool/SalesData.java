@@ -8,10 +8,10 @@ public class SalesData {
 	public void display(){
 		System.out.println("Data: ");
 		int sum=0;
-		for (int i: data) {
-				
+		//for (int i: data) { 		
+		for (int i=0;i<data.length;i++) {
 			System.out.println("Next value: " + data[i]);	
-			sum+=i;
+			sum+=data[i];
 		}		
 		System.out.println("Sum is: " + sum);
 	}
